@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Keshav Dev Tiwari Mahavidyala</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 2rem 0;
+        }
+        .gallery-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .gallery-grid img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Keshav Dev Tiwari Mahavidyala</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="documents.html">Documents</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <div class="container">
+                <h1>Gallery</h1>
+            </div>
+        </section>
+        <section id="gallery" class="container">
+            <div class="gallery-grid">
+                <img src="data/images/9a7cac3c-1bb8-40d8-93a7-81d2d1c87f70.JPG" alt="Gallery Image">
+                <img src="data/images/c64cd2db-afe4-4b99-9a82-600828d02844.JPG" alt="Gallery Image">
+                <img src="data/images/622a1995-8042-4e46-9590-c84aee3d7fe1.JPG" alt="Gallery Image">
+                <img src="data/images/a4e9480f-a802-41c8-a97e-fcc708485faf.JPG" alt="Gallery Image">
+                <img src="data/images/a9bf7bd1-067d-48e0-bf2e-961228da3d51.JPG" alt="Gallery Image">
+                <img src="data/images/d177426a-7190-4dc2-8429-9580165fab26.JPG" alt="Gallery Image">
+                <img src="data/images/407838cd-3d85-428b-8433-24cd650affbd.JPG" alt="Gallery Image">
+                <img src="data/images/ff8b0674-766a-48dd-a67c-507332d24e22.JPG" alt="Gallery Image">
+                <img src="data/images/3b07f35e-b0ee-46be-a287-b0cf22e98526.JPG" alt="Gallery Image">
+                <img src="data/images/b57d763a-72cc-474d-8285-8ee57a2ac4f0.JPG" alt="Gallery Image">
+                <img src="data/images/6dae8c44-5417-412e-b196-e737cf4bb31e.JPG" alt="Gallery Image">
+                <img src="data/images/74a62bc7-38a2-43df-ad9e-87a5d98262e6.JPG" alt="Gallery Image">
+                <img src="data/images/e2977ad1-e1dc-44d3-a142-43ddb251c2d7.JPG" alt="Gallery Image">
+                <img src="data/images/9832eb46-b335-4e4e-9692-8539434141c4.JPG" alt="Gallery Image">
+                <img src="data/images/d380fa5d-bef4-4c48-b9f4-5bf3c57d6c7e.JPG" alt="Gallery Image">
+                <img src="data/images/e081e687-809c-4b08-b4f6-552bab869b11.JPG" alt="Gallery Image">
+                <img src="data/images/e88e776d-ef1a-4699-9864-f9cf8d6edb41.JPG" alt="Gallery Image">
+                <img src="data/images/7e93e853-63bb-4b3f-bb62-fa635eaeb9ed.JPG" alt="Gallery Image">
+                <img src="data/images/93db32bf-1fae-4514-9cfc-0759d1bb511d.JPG" alt="Gallery Image">
+                <img src="data/images/a8c19a29-bf3e-4af1-b357-a00112c68516.JPG" alt="Gallery Image">
+                <img src="data/images/b45acad2-daf9-48c0-8fd0-b512b8dd009c.JPG" alt="Gallery Image">
+                <img src="data/images/b2409dc2-57e9-4e00-a197-51e8c2b17758.JPG" alt="Gallery Image">
+                <img src="data/images/c5d26c36-c5b7-4a29-849b-12f7b4771b92.JPG" alt="Gallery Image">
+                <img src="data/images/df031d1d-8636-447e-b648-9cca4419a425.JPG" alt="Gallery Image">
+                <img src="data/images/4a130a97-037b-4a44-aada-a8065058b548.JPG" alt="Gallery Image">
+                <img src="data/images/940b0de4-6e08-4574-81ab-68a9595b965c.JPG" alt="Gallery Image">
+                <img src="data/images/a87c8c5f-3d51-4609-93e6-cd03cf6c48dd.JPG" alt="Gallery Image">
+                <img src="data/images/106d08c2-4746-49f4-aac3-751418c99c2a.JPG" alt="Gallery Image">
+                <img src="data/images/5ea53952-5af5-4a17-b76c-ace83b2b9a51.JPG" alt="Gallery Image">
+                <img src="data/images/74984571-57da-416a-94ad-03fe2fe85895.JPG" alt="Gallery Image">
+                <img src="data/images/c2f19473-c783-4ba0-b212-785c175711be.JPG" alt="Gallery Image">
+                <img src="data/images/ccb693ec-2cbb-42bd-8edf-8f017f75e365.JPG" alt="Gallery Image">
+                <img src="data/images/1d78fd38-1402-4610-bbb3-245427f78b78.JPG" alt="Gallery Image">
+                <img src="data/images/0faf7b9d-f938-4e9a-97c9-1c258089a453.JPG" alt="gallery image">
+                <img src="data/images/a1a53f75-3172-4455-9ee5-3f22c553ce07.JPG" alt="gallery image">
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>A leading institution in Gohan, Jalaun, committed to academic excellence.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="documents.html">Documents</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Gohan, Jalaun</p>
+                    <p>Phone: 9415032171</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 Keshav Dev Tiwari Mahavidyala | All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
